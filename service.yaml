@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: flask-app-service
+spec:
+  selector:
+    app: flask-app
+  ports:
+  - protocol: TCP
+    port: 80  # Port on which the Service will listen
+    targetPort: 5000  # Port on which the Flask app inside the Pod listens
+  type: LoadBalancer  # Exposes the Service externally (on cloud providers supporting LoadBalancer)

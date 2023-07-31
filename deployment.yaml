@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-app-deployment
+spec:
+  replicas: 3  # Number of replicas (Pods) to be created
+  selector:
+    matchLabels:
+      app: flask-app
+  template:
+    metadata:
+      labels:
+        app: flask-app
+    spec:
+      containers:
+      - name: flask-app-container
+        image: rajdeep1311/flask-cpu-memory-app:latest  # Replace with your actual image name and version
+        ports:
+        - containerPort: 5000  # Port on which the Flask app listens

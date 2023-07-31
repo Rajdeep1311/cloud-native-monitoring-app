@@ -1,0 +1,9 @@
+Flask
+psutil
+MarkupSafe
+Werkzeug
+itsdangerous
+plotly
+tenacity
+boto3
+kubernetes

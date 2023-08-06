@@ -59,3 +59,5 @@ Example
 ```sh
 docker push rajdeep1311/flask-cpu-memory-app:latest
 ```
+
+## Conducting the Play

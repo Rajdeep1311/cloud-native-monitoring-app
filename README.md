@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ```
 Next, we need to install docker in your system. For installing Docker in your system you can refer to the [Docker Documentation](https://docs.docker.com/engine/install/)
 
-After installing Docker, we need to write a Dockerfile for creating a Docker image and ultimately Docker container(s). Using a the following commands we need to create the docker image and docker container:
+After installing Docker, we need to write a Dockerfile for creating a Docker image and ultimately Docker container(s). Using the following commands we need to create the docker image and docker container:
 
 Build the Docker image
 ```sh

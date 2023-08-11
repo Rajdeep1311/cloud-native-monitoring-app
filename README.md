@@ -106,7 +106,7 @@ Typically, you'll use these components together to manage and deploy your applic
 
 By using separate files for Pods, Deployments, and Services, you can manage each aspect of your application separately and maintain a clear and modular structure for your Kubernetes configuration.
 
-Here are some samples of pod.yaml, deployment.yaml and service.yaml files
+Here are some samples of pod.yaml, deployment.yaml, and service.yaml files
 
 ```sh
 apiVersion: v1

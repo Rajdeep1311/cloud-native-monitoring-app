@@ -176,4 +176,4 @@ kubectl get nodes
 
 To learn and apply more commands checkout [Official Kubernetes Documentation](https://kubernetes.io/docs/reference/kubectl/)
 
-If you liked the project, do give it a star. Thanks and happy learning.
+If you liked the project, do give it a star. Thank you and happy learning.

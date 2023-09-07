@@ -1,4 +1,4 @@
-# Cloud-Native Monitoring App
+# Cloud-Native Monitoring Application
 
 <p align="center">
 

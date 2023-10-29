@@ -156,7 +156,7 @@ spec:
 
 You can find all the required files to run the project in the GitHub repository and finally, you are ready to deploy your app.
 
-Use these commands to apply the pod, deployment and service files:
+Use these commands to apply the pod, deployment, and service files:
 ```sh
 kubectl apply -f <file name>
 ```

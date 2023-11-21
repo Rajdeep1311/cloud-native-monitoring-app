@@ -12,7 +12,7 @@ A simple cloud-native monitoring app using Python modules with a bit of design u
 
 We need an IDE or Integrated Development Environment like Visual Studio Code or PyCharm for writing the code as they provide us with suggestions and point out the mistakes in the code. We need to import a few Python modules like the **psutil** for getting the system health metrics and the **Flask** module for running the application in Flask. We can also include a warning message to be displayed if the CPU or Memory Utilization goes above 80 percent. Lastly, we need to include the port number for example **0.0.0.0**, the local host to host the application.
 
-We can include an HTML file and some styles so that our site looks a bit decent. You can find the **index.html** file in the templates folder.
+We can include an HTML file and some styles to make our site look decent. You can find the **index.html** file in the templates folder.
 
 ## Setting the Stage
 
@@ -49,7 +49,7 @@ Log in to Docker Hub
  ```sh
 docker login
 ```
-Enter your username and password when prompted.
+You can enter your username and password when prompted.
 
 Push the image to Docker Hub
 ```sh
@@ -173,6 +173,14 @@ kubectl get services
 ```sh
 kubectl get nodes
 ```
+
+## Project Screenshots
+
+![Screenshot (298)](https://github.com/Rajdeep1311/cloud-native-monitoring-app/assets/113296626/c275b871-b799-466e-8193-eed9463d3326)
+
+![Screenshot (299)](https://github.com/Rajdeep1311/cloud-native-monitoring-app/assets/113296626/27055976-c2bf-4fc8-9178-e4776e6e7aef)
+
+
 
 To learn and apply more commands checkout [Official Kubernetes Documentation](https://kubernetes.io/docs/reference/kubectl/)
 

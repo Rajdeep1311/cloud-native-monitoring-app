@@ -6,7 +6,7 @@
  
 </p>
 
-A simple cloud-native monitoring app using Python modules with a bit of design using HTML and containerized it using Docker, the app is deployed in the Kubernetes cluster.
+A simple cloud-native monitoring app using Python modules with a bit of design using HTML and containerized using Docker, the app is deployed in the Kubernetes cluster.
 
 ## Writing the Script
 
@@ -72,7 +72,7 @@ In Kubernetes, Pods, Deployments, and Services serve different purposes and are 
 
 1. **Pods:**
    - A Pod is the smallest deployable unit in Kubernetes, representing a single instance of a running process.
-   - It can contain one or more containers that share the same network namespace, storage, and IP address.
+   - It can contain one or more containers with the same network namespace, storage, and IP address.
    - Use Pods when you need to run a single container or multiple tightly coupled containers together on the same host.
    - You might need separate Pod files for different components of your application that need to run together.
 

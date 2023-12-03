@@ -180,8 +180,6 @@ kubectl get nodes
 
 ![Screenshot (299)](https://github.com/Rajdeep1311/cloud-native-monitoring-app/assets/113296626/27055976-c2bf-4fc8-9178-e4776e6e7aef)
 
-
-
 To learn and apply more commands checkout [Official Kubernetes Documentation](https://kubernetes.io/docs/reference/kubectl/)
 
 If you liked the project, do give it a star. Thank you and happy learning.
